@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  padding: 10px 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 80px;
+  height: 30px;
+}
+
+.list_nav {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.link_nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.eksport {
+  color: #39326b
+}
+
+.shivaki {
+  color: red;
+}
+
+.royal {
+  color: blue;
+}
+
+/* main_content */
+
+.main_content {
+  width: 100%;
+}
+
+.main_img img {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.box1 {
+  width: 50%;
+  position: relative;
+  background-color: rgb(231, 229, 229);
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.box1 img {
+  width: 100%;
+}
+
+.decs_box1 {
+  width: 55%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.decs_box1 h3 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.decs_box1 p {
+  width: 85%;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.box2 {
+  width: 50%;
+  padding-top: 100px;
+}
+
+.box2 img {
+  width: 100%;
+}
+
+
+/* product */
+
+.product {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.title_product {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+}
+
+.cards {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px 50px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.title_card {
+  font-size: 22px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.text_card {
+  font-size: 14px;
+}
+
+.one {
+  background-image: linear-gradient(to top, #fff, transparent 80%), url('https://artelgroup.org/upload/product_fresh/Classico_I6701.png.466x480_q85_crop.jpg');
+}
+
+.two {
+  background-image: linear-gradient(to top, #fff, transparent 80%), url('https://artelgroup.org/upload/product_fresh/microw.png.466x480_q85_crop.jpg');
+}
+
+.three {
+  background-image: linear-gradient(to top, #fff, transparent 80%), url('https://artelgroup.org/upload/product_fresh/quadro.png.466x480_q85_crop.jpg');
+}
+
+.four {
+  background-image: linear-gradient(to top, #fff, transparent 80%), url('https://artelgroup.org/upload/product_fresh/vmo-104_GUoJc6h.png.466x480_q85_crop.jpg');
+}
+
+/* mini cards */
+
+.mini_cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 70px;
+}
+
+.mini_card {
+  width: 255px;
+  height: 210px;
+  background-color: #fff;
+
+}
+
+.mini_card img {
+  width: 161px;
+  height: 161px;
+}
+
+.text_mini_card {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* servise */
+
+.servise {
+  width: 100%;
+  background-color: #68bb46;
+}
+
+.list_servise{
+  height: 110px;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+.item_servise{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item_servise img {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 2px;
+
+}
+
+.item_servise span{
+  color: #fff;
+  font-weight: 700;
+}
+
+.news{
+  padding: 25px 0;
+}
+
+/* call */
+.title_servise {
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.title_servise a{
+  color: #fff;
+  font-size: 20px;
+  word-spacing: .03px;
+  letter-spacing: .01px;
+}
+
+.title_servise .telefon{
+  font-size: 24px;
+}
+
+.servise p{
+  font-weight: bold;
+  width: 290px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.servise input{
+  border-radius: 4px;
+  border: none;
+  height: 30px;
+  margin: 15px;
+  text-align: center;
+}
+
+/*     <!-- footer --> */
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: rgba(33, 36, 47, .8);
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_footer li{
+  list-style: none;
+}
+
+.list_footer p{
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 15px;
+
+}
+
+.link_footer{
+  color: #dad4d4;
+  font-size: 11px;
+  margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: aquamarine;
+}
+.container{
+  margin: 0 auto;
+  background-color: rgb(213, 223, 69);
+
+}
+
+.logo {
+  width: 78px;
+  height: 38px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.list_header {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link_header {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.shivaki {
+  color: red;
+}
+
+.samsung {
+  color: rgb(4, 4, 186);
+}
+
+.main_section {
+  width: 100%;
+}
+
+
+.main_img{
+  height: 600px;
+}
+
+.main_img img {
+  width: 100%;
+} */
